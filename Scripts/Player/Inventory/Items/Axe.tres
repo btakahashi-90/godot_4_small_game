@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="InventoryItem" load_steps=3 format=3 uid="uid://v3dr2175o4fu"]
+
+[ext_resource type="Script" path="res://Scripts/Player/Inventory/InventoryItem.gd" id="1_dx621"]
+[ext_resource type="Texture2D" uid="uid://dqlq2dskotff3" path="res://Assets/Items/AxeTool/Sprite.png" id="2_fauso"]
+
+[resource]
+script = ExtResource("1_dx621")
+name = "Axe"
+texture = ExtResource("2_fauso")

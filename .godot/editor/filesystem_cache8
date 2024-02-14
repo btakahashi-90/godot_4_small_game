@@ -1,0 +1,156 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1707886241
+icon.svg::CompressedTexture2D::8227796035355553711::1707696453::1707696462::1::::<><>::
+::res://Assets/::1707874937
+::res://Assets/Enemies/::1707723067
+Slime3.png::CompressedTexture2D::8570280571380116827::1699017152::1707723067::1::::<><>::
+::res://Assets/Fonts/::1707874939
+NormalFont.ttf::FontFile::1045124399048416736::1698993510::1707874939::1::::<><>::
+::res://Assets/Items/::1707886536
+Wood.png::CompressedTexture2D::3637851360650043196::1699096196::1707873236::1::::<><>::
+::res://Assets/Items/AxeTool/::1707873236
+Sprite.png::CompressedTexture2D::8306011578752520082::1699096190::1707873236::1::::<><>::
+SpriteInHand.png::CompressedTexture2D::4431308768253655471::1699096190::1707873236::1::::<><>::
+::res://Assets/Items/FishingRod/::1707886536
+Sprite.png::CompressedTexture2D::5682600931698840808::1699130392::1707886541::1::::<><>::
+::res://Assets/Items/Pickaxe/::1707886537
+Sprite.png::CompressedTexture2D::495718956369782800::1699130400::1707886541::1::::<><>::
+::res://Assets/Items/Sword/::1707710321
+Sprite.png::CompressedTexture2D::5474317046156320864::1699013814::1707710321::1::::<><>::
+SpriteInHand.png::CompressedTexture2D::5827385379455658118::1699013814::1707710321::1::::<><>::
+::res://Assets/Player/::1707697657
+Attack.png::CompressedTexture2D::3074469575144988574::1698846984::1707697657::1::::<><>::
+Dead.png::CompressedTexture2D::1710438052590970630::1698846984::1707697657::1::::<><>::
+Idle.png::CompressedTexture2D::8711642690338993500::1698846984::1707697657::1::::<><>::
+Item.png::CompressedTexture2D::6073857012043259016::1698846984::1707697657::1::::<><>::
+Jump.png::CompressedTexture2D::5174452460341430417::1698846984::1707697657::1::::<><>::
+Special1.png::CompressedTexture2D::5358332248861668323::1698846984::1707697657::1::::<><>::
+Special2.png::CompressedTexture2D::8895793649543462748::1698846984::1707697657::1::::<><>::
+Walk.png::CompressedTexture2D::7430482885467065788::1698846984::1707697657::1::::<><>::
+::res://Assets/Tileset/::1707882577
+Pipes.png::CompressedTexture2D::8327712776925518804::1698968920::1707699059::1::::<><>::
+TilesetDesert.png::CompressedTexture2D::2153573587565034937::1698968920::1707699059::1::::<><>::
+TilesetDungeon.png::CompressedTexture2D::8100541650052345429::1698968920::1707699059::1::::<><>::
+TilesetElement.png::CompressedTexture2D::2231376136388763884::1698968920::1707699059::1::::<><>::
+TilesetField.png::CompressedTexture2D::5445855053776859229::1698968920::1707699059::1::::<><>::
+TilesetFloor.png::CompressedTexture2D::2330354455712588533::1698968920::1707699059::1::::<><>::
+TilesetFloorB.png::CompressedTexture2D::2289091678210731201::1698968920::1707699059::1::::<><>::
+TilesetFloorDetail.png::CompressedTexture2D::4486216253365826358::1698968920::1707699059::1::::<><>::
+TilesetHole.png::CompressedTexture2D::3677566168797016290::1698968920::1707699059::1::::<><>::
+TilesetHouse.png::CompressedTexture2D::310396144386567475::1698968920::1707699059::1::::<><>::
+TilesetLogic.png::CompressedTexture2D::460894951960488475::1698968920::1707699059::1::::<><>::
+TilesetNature.png::CompressedTexture2D::1365709741787420567::1698968920::1707699059::1::::<><>::
+TilesetRelief.png::CompressedTexture2D::5537889075508298634::1698968920::1707699059::1::::<><>::
+TilesetReliefDetail.png::CompressedTexture2D::8016757713700909674::1698968920::1707699059::1::::<><>::
+TilesetVillageAbandoned.png::CompressedTexture2D::7837433726627370735::1698968920::1707699059::1::::<><>::
+TilesetWater.png::CompressedTexture2D::343013238385689472::1698968920::1707699059::1::::<><>::
+::res://Assets/Tileset/Interior/::1707699059
+Elements.png::CompressedTexture2D::569595207712767287::1698968920::1707699059::1::::<><>::
+TilesetInterior.png::CompressedTexture2D::7227080542439080220::1698968920::1707699059::1::::<><>::
+TilesetInteriorFloor.png::CompressedTexture2D::6965098372991432493::1698968920::1707699059::1::::<><>::
+TilesetWallSimple.png::CompressedTexture2D::8280616826808127557::1698968920::1707699059::1::::<><>::
+::res://Assets/Tileset/Tree/::1707882582
+Tree1.png::CompressedTexture2D::4139234738042561152::1699103092::1707882582::1::::<><>::
+Tree2.png::CompressedTexture2D::2198410722820231896::1699103092::1707882582::1::::<><>::
+Tree3.png::CompressedTexture2D::8644796347906481043::1699103092::1707882582::1::::<><>::
+::res://Assets/UI/::1707873849
+InventoryRect.png::CompressedTexture2D::6080334005594451806::1699096306::1707873849::1::::<><>::
+inventorySlot.png::CompressedTexture2D::2328097025780058222::1699096306::1707873849::1::::<><>::
+::res://Levels/::1707886408
+world.tscn::PackedScene::7752418711426428359::1707886407::0::1::::<><>::uid://cjovhx4mkj25m::::res://Scenes/player.tscn<>uid://8g3uku4h1h1f::::res://Assets/Tileset/TilesetFloor.png<>uid://tptbme2iou44::::res://Assets/Tileset/TilesetNature.png<>uid://djwrnhah22wx8::::res://Assets/Tileset/TilesetVillageAbandoned.png<>uid://e5fm3425256s::::res://Assets/Tileset/TilesetWater.png<>uid://eomgddiyyked::::res://Assets/Tileset/TilesetHouse.png<>res://Scripts/Player/HUD.gd<>uid://cqlalqgvwmi7m::::res://Scenes/tree.tscn<>uid://22yu3vqxtaav::::res://Scenes/craft_ui.tscn<>uid://bja07llm5xobf::::res://Scenes/slime.tscn
+::res://Scenes/::1707886408
+craft_ui.tscn::PackedScene::1952331405144127453::1707886408::0::1::::<><>::uid://dqlq2dskotff3::::res://Assets/Items/AxeTool/Sprite.png<>res://Scripts/World/crafting.gd<>uid://o5jbtmgitj0s::::res://Assets/Fonts/NormalFont.ttf
+drop_item.tscn::PackedScene::8308922154787784317::1707886408::0::1::::<><>::res://Scripts/World/drop_item.gd<>uid://br3g46002yb8g::::res://Assets/Items/Wood.png
+inventory_slot_ui.tscn::PackedScene::350712884127430815::1707886408::0::1::::<><>::res://Scripts/Player/Inventory/inventory_slot_ui.gd<>uid://8f0ohcf5ntq1::::res://Assets/UI/inventorySlot.png<>uid://o5jbtmgitj0s::::res://Assets/Fonts/NormalFont.ttf
+inventory_ui.tscn::PackedScene::5205839502554768909::1707886408::0::1::::<><>::res://Scripts/Player/Inventory/inventory_ui.gd<>uid://csvmhh56bl0m1::::res://Assets/UI/InventoryRect.png<>uid://e85gpui1itk6::::res://Scenes/inventory_slot_ui.tscn
+player.tscn::PackedScene::5434731059486116252::1707886406::0::1::::<><>::res://Scripts/Player/player.gd<>uid://e6r5o0l2ofto::::res://Scripts/Player/Inventory/PlayerInventory.tres<>uid://dwd8qnthscjdc::::res://source/0001 Setting up the player character/01.02 Setting up player Animations/Resources/Player Spritesheet/Idle.png<>uid://bj2kcg2vw4d4q::::res://source/0001 Setting up the player character/01.02 Setting up player Animations/Resources/Player Spritesheet/Attack.png<>uid://dd4m75pjex80o::::res://source/0001 Setting up the player character/01.02 Setting up player Animations/Resources/Player Spritesheet/Walk.png<>res://Scripts/Player/Vitals.gd<>uid://cpa3gk185fg7g::::res://Assets/Items/Sword/SpriteInHand.png<>res://Scripts/Player/Weapon/Weapon.gd<>uid://cgf0oe6onlevl::::res://Scenes/inventory_ui.tscn
+slime.tscn::PackedScene::3019695941995446327::1707886408::0::1::::<><>::uid://dudrje268co0r::::res://Assets/Enemies/Slime3.png<>res://Scripts/Enemies/slime.gd
+tree.tscn::PackedScene::5918591515248785740::1707886408::0::1::::<><>::res://Scripts/World/tree.gd<>uid://7u4agmfm8g3j::::res://Assets/Tileset/TilesetFloorB.png<>uid://pet0q8rlg2fw::::res://Scripts/Player/Inventory/Items/Wood.tres<>uid://by8cudv3epig3::::res://Assets/Tileset/Tree/Tree1.png<>uid://6k6rd7e7e3yy::::res://Assets/Tileset/Tree/Tree2.png<>uid://dvfusd7lgy8tj::::res://Assets/Tileset/Tree/Tree3.png
+::res://Scripts/::1707876525
+::res://Scripts/Enemies/::1707726921
+slime.gd::GDScript::-1::1707726921::0::1::::<>CharacterBody2D<>::
+::res://Scripts/foo/::1707722894
+Dummy.gd::GDScript::-1::1707722894::0::1::::<>StaticBody2D<>::
+::res://Scripts/Player/::1707886388
+HUD.gd::GDScript::-1::1707724860::0::1::::<>Control<>::
+player.gd::GDScript::-1::1707886388::0::1::::<>CharacterBody2D<>::
+PlayerState.gd::GDScript::-1::1707707270::0::1::::<>Node<>::
+Vitals.gd::GDScript::-1::1707724916::0::1::::<>Node2D<>::
+::res://Scripts/Player/Inventory/::1707886388
+Inventory.gd::GDScript::-1::1707876380::0::1::::Inventory<>Resource<>::
+InventoryItem.gd::GDScript::-1::1707873294::0::1::::InventoryItem<>Resource<>::
+InventorySlot.gd::GDScript::-1::1707875347::0::1::::InventorySlot<>Resource<>::
+inventory_slot_ui.gd::GDScript::-1::1707875926::0::1::::<>Panel<>::
+inventory_ui.gd::GDScript::-1::1707876422::0::1::::<>Control<>::
+PlayerInventory.tres::Resource/Inventory::345837622105599208::1707886388::0::1::::<><>::res://Scripts/Player/Inventory/Inventory.gd<>res://Scripts/Player/Inventory/InventorySlot.gd
+::res://Scripts/Player/Inventory/Items/::1707886388
+Sword.tres::Resource/Resource::2924563201372191131::1707873294::0::1::::<><>::res://Scripts/Player/Inventory/InventoryItem.gd<>uid://cj82g4pe8rbhw::::res://Assets/Items/Sword/Sprite.png
+Wood.tres::Resource/InventoryItem::1062289325436427244::1707886388::0::1::::<><>::res://Scripts/Player/Inventory/InventoryItem.gd<>uid://br3g46002yb8g::::res://Assets/Items/Wood.png
+::res://Scripts/Player/Weapon/::1707722779
+Weapon.gd::GDScript::-1::1707722779::0::1::::<>Node2D<>::
+::res://Scripts/World/::1707886406
+crafting.gd::GDScript::-1::1707886406::0::1::::<>Control<>::
+drop_item.gd::GDScript::-1::1707876731::0::1::::<>Area2D<>::
+tree.gd::GDScript::-1::1707884035::0::1::::<>StaticBody2D<>::
+::res://source/::1707872951
+::res://source/001 Giving our player weapons/::1707710217
+::res://source/001 Giving our player weapons/01.01 Setting up the weapon and attack animations/::1707710217
+::res://source/001 Giving our player weapons/01.01 Setting up the weapon and attack animations/Resources/::1707873007
+Sprite.png::CompressedTexture2D::6258049988130715409::1699013814::1707873007::1::::<><>::
+SpriteInHand.png::CompressedTexture2D::6851859463189780935::1699013814::1707873007::1::::<><>::
+::res://source/001 Giving our player weapons/01.02 Making our weapon functional/::1707710217
+::res://source/001 Giving our player weapons/01.02 Making our weapon functional/Resources/::1707710217
+::res://source/01 Setting up the inventory/::1707872928
+::res://source/01 Setting up the inventory/01.01 Creating item resources and early Inventory system/::1707872927
+::res://source/01 Setting up the inventory/01.01 Creating item resources and early Inventory system/Resources/::1707872928
+::res://source/01 Setting up the inventory/01.02 Setting up the inventory UI/::1707872928
+::res://source/01 Setting up the inventory/01.02 Setting up the inventory UI/Resources/::1707872928
+::res://source/01 Setting up the inventory/01.03 Making the inventory update when we pick up an item/::1707872928
+::res://source/01 Setting up the inventory/01.03 Making the inventory update when we pick up an item/Resources/::1707872928
+::res://source/0001 Setting up the player character/::1699134982
+::res://source/0001 Setting up the player character/01.01 Adding movement to the player/::1699134982
+::res://source/0001 Setting up the player character/01.01 Adding movement to the player/Resources/::1699134990
+::res://source/0001 Setting up the player character/01.02 Setting up player Animations/::1699135022
+::res://source/0001 Setting up the player character/01.02 Setting up player Animations/Resources/::1707697566
+::res://source/0001 Setting up the player character/01.02 Setting up player Animations/Resources/Player/::1707873007
+Attack.png::CompressedTexture2D::6059028795568833931::1698846984::1707873007::1::::<><>::
+Dead.png::CompressedTexture2D::5101827423556231208::1698846984::1707873007::1::::<><>::
+Idle.png::CompressedTexture2D::3486769179800265141::1698846984::1707873007::1::::<><>::
+Item.png::CompressedTexture2D::8310849279343261385::1698846984::1707873007::1::::<><>::
+Jump.png::CompressedTexture2D::7435175892604061266::1698846984::1707873007::1::::<><>::
+Special1.png::CompressedTexture2D::5976583334508412565::1698846984::1707873007::1::::<><>::
+Special2.png::CompressedTexture2D::8133775394759619112::1698846984::1707873007::1::::<><>::
+Walk.png::CompressedTexture2D::6452804529219369885::1698846984::1707873007::1::::<><>::
+::res://source/0001 Setting up the player character/01.02 Setting up player Animations/Resources/Player Spritesheet/::1707873007
+Attack.png::CompressedTexture2D::3074469575144988574::1698846984::1707873007::1::::<><>::
+Dead.png::CompressedTexture2D::1710438052590970630::1698846984::1707873007::1::::<><>::
+Idle.png::CompressedTexture2D::8711642690338993500::1698846984::1707873007::1::::<><>::
+Item.png::CompressedTexture2D::6073857012043259016::1698846984::1707873007::1::::<><>::
+Jump.png::CompressedTexture2D::5174452460341430417::1698846984::1707873007::1::::<><>::
+Special1.png::CompressedTexture2D::5358332248861668323::1698846984::1707873007::1::::<><>::
+Special2.png::CompressedTexture2D::8895793649543462748::1698846984::1707873007::1::::<><>::
+Walk.png::CompressedTexture2D::7430482885467065788::1698846984::1707873007::1::::<><>::
+::res://source/0002 Creating a small map/::1699135122
+::res://source/0002 Creating a small map/02.01 Getting Tilesets ready in Godot 4/::1699135122
+::res://source/0002 Creating a small map/02.01 Getting Tilesets ready in Godot 4/Resources/::1699135130
+::res://source/0002 Creating a small map/02.02 Adding more details to the map/::1699135132
+::res://source/0002 Creating a small map/02.02 Adding more details to the map/Resources/::1699135256
+::res://source/0002 Creating a small map/02.03 Adding collision to the map/::1699135378
+::res://source/0002 Creating a small map/02.03 Adding collision to the map/Resources/::1699135384
+::res://source/02 Creating breakable objects/::1707872928
+::res://source/02 Creating breakable objects/02.01 Creating a breakable tree/::1707872928
+::res://source/02 Creating breakable objects/02.01 Creating a breakable tree/Resources/::1707872928
+::res://source/02 Creating breakable objects/02.02 Adding item drop to our tree/::1707872928
+::res://source/02 Creating breakable objects/02.02 Adding item drop to our tree/Resources/::1707872928
+::res://source/002 Creating the first enemy/::1707710217
+::res://source/002 Creating the first enemy/Resources/::1707873007
+Slime3.png::CompressedTexture2D::3748547748906045882::1699017152::1707873007::1::::<><>::
+::res://source/0003 Player vitals and UI/::1699135390
+::res://source/0003 Player vitals and UI/03.01 Setting up health and the UI/::1699135390
+::res://source/0003 Player vitals and UI/03.01 Setting up health and the UI/Resources/::1699135390
+::res://source/0003 Player vitals and UI/03.02 Adding hunger/::1699135490
+::res://source/0003 Player vitals and UI/03.02 Adding hunger/Resources/::1699135498
+::res://source/003 Taking Damage and killing the enemy/::1707710217
+::res://source/003 Taking Damage and killing the enemy/Resources/::1707710217
+::res://source/04 Adding more visuals to the enemy/::1707710217
+::res://source/04 Adding more visuals to the enemy/Resources/::1707710217

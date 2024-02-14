@@ -1,0 +1,13 @@
+res://Scripts/World/crafting.gd
+res://Levels/world.tscn
+res://Scripts/Player/Inventory/PlayerInventory.tres
+res://Scripts/Player/player.gd
+res://Scripts/Player/Inventory/Items/Wood.tres
+res://Scenes/player.tscn
+res://Scenes/slime.tscn
+res://Scenes/inventory_ui.tscn
+res://Scenes/inventory_slot_ui.tscn
+res://Scenes/drop_item.tscn
+res://Scenes/tree.tscn
+res://Scenes/craft_ui.tscn
+res://Scripts/Player/Inventory/Items/Axe.tres

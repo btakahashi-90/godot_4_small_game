@@ -1,0 +1,46 @@
+[gd_resource type="Resource" script_class="Inventory" load_steps=13 format=3 uid="uid://e6r5o0l2ofto"]
+
+[ext_resource type="Script" path="res://Scripts/Player/Inventory/Inventory.gd" id="1_y8dxg"]
+[ext_resource type="Resource" uid="uid://pet0q8rlg2fw" path="res://Scripts/Player/Inventory/Items/Wood.tres" id="2_6dub3"]
+[ext_resource type="Script" path="res://Scripts/Player/Inventory/InventorySlot.gd" id="2_vk6mn"]
+
+[sub_resource type="Resource" id="Resource_5snho"]
+script = ExtResource("2_vk6mn")
+item = ExtResource("2_6dub3")
+amount = 20
+
+[sub_resource type="Resource" id="Resource_6o6x8"]
+script = ExtResource("2_vk6mn")
+amount = 0
+
+[sub_resource type="Resource" id="Resource_uiwid"]
+script = ExtResource("2_vk6mn")
+amount = 0
+
+[sub_resource type="Resource" id="Resource_c73j1"]
+script = ExtResource("2_vk6mn")
+amount = 0
+
+[sub_resource type="Resource" id="Resource_6755i"]
+script = ExtResource("2_vk6mn")
+amount = 0
+
+[sub_resource type="Resource" id="Resource_lxmko"]
+script = ExtResource("2_vk6mn")
+amount = 0
+
+[sub_resource type="Resource" id="Resource_etyl7"]
+script = ExtResource("2_vk6mn")
+amount = 0
+
+[sub_resource type="Resource" id="Resource_qeavb"]
+script = ExtResource("2_vk6mn")
+amount = 0
+
+[sub_resource type="Resource" id="Resource_c8wvc"]
+script = ExtResource("2_vk6mn")
+amount = 0
+
+[resource]
+script = ExtResource("1_y8dxg")
+slots = Array[ExtResource("2_vk6mn")]([SubResource("Resource_5snho"), SubResource("Resource_6o6x8"), SubResource("Resource_uiwid"), SubResource("Resource_c73j1"), SubResource("Resource_6755i"), SubResource("Resource_lxmko"), SubResource("Resource_etyl7"), SubResource("Resource_qeavb"), SubResource("Resource_c8wvc")])

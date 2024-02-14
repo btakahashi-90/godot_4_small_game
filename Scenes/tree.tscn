@@ -1,0 +1,122 @@
+[gd_scene load_steps=12 format=3 uid="uid://cqlalqgvwmi7m"]
+
+[ext_resource type="Script" path="res://Scripts/World/tree.gd" id="1_enwe1"]
+[ext_resource type="Texture2D" uid="uid://7u4agmfm8g3j" path="res://Assets/Tileset/TilesetFloorB.png" id="1_yvydr"]
+[ext_resource type="Resource" uid="uid://pet0q8rlg2fw" path="res://Scripts/Player/Inventory/Items/Wood.tres" id="2_dea2r"]
+[ext_resource type="Texture2D" uid="uid://by8cudv3epig3" path="res://Assets/Tileset/Tree/Tree1.png" id="2_ix0tf"]
+[ext_resource type="Texture2D" uid="uid://6k6rd7e7e3yy" path="res://Assets/Tileset/Tree/Tree2.png" id="3_hd25n"]
+[ext_resource type="Texture2D" uid="uid://dvfusd7lgy8tj" path="res://Assets/Tileset/Tree/Tree3.png" id="4_orhhw"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_a41d5"]
+atlas = ExtResource("1_yvydr")
+region = Rect2(44, 84, 44, 28)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_hjoh2"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_a41d5")
+}],
+"loop": true,
+"name": &"0",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_ix0tf")
+}],
+"loop": true,
+"name": &"1",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_hd25n")
+}],
+"loop": true,
+"name": &"2",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("4_orhhw")
+}],
+"loop": true,
+"name": &"3",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_y7x1n"]
+size = Vector2(16, 11)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_yv27q"]
+bg_color = Color(0.0980392, 0.0980392, 0.0980392, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(1, 1, 1, 1)
+border_blend = true
+corner_radius_top_left = 2
+corner_radius_top_right = 2
+corner_radius_bottom_right = 2
+corner_radius_bottom_left = 2
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ipi3i"]
+bg_color = Color(0.647059, 0, 0.00784314, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(1, 1, 1, 1)
+border_blend = true
+corner_radius_top_left = 2
+corner_radius_top_right = 2
+corner_radius_bottom_right = 2
+corner_radius_bottom_left = 2
+
+[node name="Tree" type="StaticBody2D" groups=["Hittable"]]
+z_index = 1
+y_sort_enabled = true
+script = ExtResource("1_enwe1")
+dropItemData = ExtResource("2_dea2r")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+z_index = 1
+y_sort_enabled = true
+sprite_frames = SubResource("SpriteFrames_hjoh2")
+animation = &"3"
+offset = Vector2(0, -16)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -5.5)
+shape = SubResource("RectangleShape2D_y7x1n")
+
+[node name="HealthBar" type="ProgressBar" parent="."]
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = -15.0
+offset_top = -38.0
+offset_right = 15.0
+offset_bottom = -33.0
+grow_vertical = 0
+theme_override_styles/background = SubResource("StyleBoxFlat_yv27q")
+theme_override_styles/fill = SubResource("StyleBoxFlat_ipi3i")
+max_value = 30.0
+step = 1.0
+value = 30.0
+show_percentage = false
+
+[node name="Timers" type="Node" parent="."]
+
+[node name="RegenTimer" type="Timer" parent="Timers"]
+wait_time = 3.0
+one_shot = true
+
+[node name="RemoveBarTimer" type="Timer" parent="Timers"]
+wait_time = 3.0
+one_shot = true
+
+[connection signal="timeout" from="Timers/RegenTimer" to="." method="_on_regen_timer_timeout"]
+[connection signal="timeout" from="Timers/RemoveBarTimer" to="." method="_on_remove_bar_timer_timeout"]
